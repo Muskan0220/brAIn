@@ -1,0 +1,50 @@
+{
+    "cartTitle": "BrainAI",
+    "cartDescription": "BrainAI ",
+    "cartLogo": "https://i.ibb.co/7j6fNmc/logo-admin-1.jpg",
+    "baseUrl": "http://localhost:1111",
+    "emailHost": "smtp-mail.outlook.com",
+    "emailPort": 587,
+    "emailSecure": false,
+    "emailUser": "syedayaz2.sa@gmail.com",
+    "emailPassword": "test",
+    "emailAddress": "syedayaz2.sa@gmail.com",
+    "productsPerRow": 3,
+    "productsPerPage": 6,
+    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by BrainAI&lt;/h4&gt;",
+    "googleAnalytics": "",
+    "injectJs": "",
+    "customCss": "",
+    "currencySymbol": "₹",
+    "paymentGateway": "stripe",
+    "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
+    "theme": "Cloth",
+    "trackStock": false,
+    "orderHook": "",
+    "availableLanguages": [
+        "en",
+        "it"
+    ],
+    "defaultLocale": "en",
+    "maxQuantity": 25,
+    "twitterHandle": "",
+    "facebookAppId": "",
+    "productOrderBy": "date",
+    "productOrder": "descending",
+    "modules": {
+        "enabled": {
+            "shipping": "shipping-basic",
+            "discount": "discount-voucher"
+        },
+        "loaded": {
+            "shipping": {},
+            "discount": {}
+        }
+    },
+    "showRelatedProducts": true,
+    "showHomepageVariants": false,
+    "secretCookie": "04bfc9a237d9d82e45462b126cac1085c7a8653e",
+    "secretSession": "87ff2d5c7963b1a3b1d0ea6ac9c0b9ae2151a6ef",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ".min"
+}
